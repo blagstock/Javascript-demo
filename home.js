@@ -10,7 +10,7 @@ function setup() {
 function draw() {
 	background (R, G, B);
 	
-	//draw values of R, G & B
+	//draw the values of R, G & B in the uper left corner of the canvas
 	textSize(32);
 	strokeWeight(0);
 	fill (255);
@@ -48,6 +48,7 @@ function draw() {
 }
 
 function update() {
+	// increase the angle of the arc
 	a++;
 	if (a>360) {a = 0;}
 }
